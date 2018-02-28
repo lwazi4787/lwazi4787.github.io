@@ -287,6 +287,7 @@
 			}
 			nav li{
 				//display: none;
+				padding: 5px;
 			}
 			nav button{
 				//display: block;
