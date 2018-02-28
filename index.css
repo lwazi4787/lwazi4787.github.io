@@ -286,7 +286,7 @@
 				margin: 1em auto;
 			}
 			nav li{
-				display: none;
+				//display: none;
 			}
 			nav button{
 				display: block;
