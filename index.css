@@ -288,10 +288,10 @@
 			nav li{
 				//display: none;
 				padding: 5px;
+				font-size: 2.3vw;
 			}
 			nav button{
 				//display: block;
-				font-size: 2.3vw;
 			}
 			#logo_text img{
 				display: none;
