@@ -226,6 +226,9 @@
 			#my_goal_background{
 				font-size: 2.5vw;
 			}
+			#home_button{
+				padding: .5em 2em;
+			}
 			#social_div{
 				text-align: center;
 				font-size: 2.5vw;
