@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<nav>
+		<ul style="list-style-type: none">
+			<a href="index.html"><li>Home</li></a>
+			<a href="about.html"><li>About</li></a>
+			<a href="contact.html"><li>Contact</li></a>
+			<!--<a href="#"><li>Develelopment services</li></a>-->
+		</ul>
+		<button id = "menu_bttn">Menu</button>
+
+		<div id = "logo_text">
+			<h2>My World</h2>
+			<img src="20131112-Free-Symbols-and-Icons-for-websites.png" height="30px"><p>lwazi4787@gmail.com</p>
+			<img src="20131112-Free-Symbols-and-Icons-for-websites2.png" height="30px"><p>074 290 9377</p>
+		</div>
+
+		<div id = "nav_icons">
+			
+		</div>
+	</nav>
+	<section id = "section">
+	<div id = "background_img">
+		<img src="pexels-photo (1).jpg">
+		<div id = "main_section">
+			<h1 id = "home_heading">Web Developer</h1><br>
+			<a href = "#about" id = "home_button_index"><button id = "home_button">About Me</button></a>
+		</div>
+	</div>
+		<a name="about"></a><div id = "my_goal_background">
+			<div id = "my_goal">
+				<h1>Life into software development</h1><br>
+				<p>I’m a 22 year old male software developer from Durban South Africa. I was introduced to software development when I was in varsity but I always aspired to learn it prayer to that. I did computer science in University of KwaZulu-Natal 2014 where I was introduced to the concepts of software development via the java language. I dropped out of varsity before my first year ended because I also had ambitions of learning about computer hardware architecture as well.</p> <br>
+
+				<p>I than started doing computer systems engineering at Mangosuthu University of Technology where both my learning ambitions where satisfied. I was re-introduced to the concepts of software engineering via C++ this time alongside other computer hardware fundamentals, computer network concepts and fundamentals and electrical engineering and electronics concepts and fundamentals. I than further on dived dipper to software development by learning embedded system programming with c, microprocessor programming with assemble and web development  front end and back end with html, css, JavaScript and php. Finally I went back to java where I learned about GUI programming and object oriented programming where we touched on inheritance and polymorphism but to name a few. I did a voting web application for my final year design project and I always do projects back to back just for the fun of it. I just finished my academic studies now I’m trying to get an in-service training so I can graduate.</p>
+			</div>
+		</div>
+
+		<div id = "my_goal_background" style="background: #666666; color: white;">
+			<div id = "my_goal" style="background: #666666; color: #cccccc">
+				<h1>About me personally</h1><br>
+				<p>I am an outgoing person, I love meeting new people and making, learning new things. I am very determined and when I put my mind to something I give it 100 percent effort. I love a challenge. If I don’t succeed I do not let it get me down.</p><br>
+
+				<h3>Interests and Hobbies</h3>
+				<ul>
+					<li>I love listening to and making music.</li>
+					<li>I love watching TV series and movies.</li>
+					<li>I love computer programming (HTML, CSS, PHP, JavaScript, C++ and java).</li>
+					<li>I love playing computer games.</li>
+					<li>I love playing soccer, Athletic and working out.</li>
+					<li>I also love just spending time on the internet browsing information, also spend a lot of time on YouTube watching tutorials and just watching videos that interest me. I just love using my computer even with no internet I always find something to do.</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--Social media -->
+		<div id = "social_background">
+			<div id = "social_div">
+				<div id = "social_text">
+					<h1>Social media handle</h1><br>
+					<p>Follow me on instagram and facebook for latest updates and info. You can also chat with me on whatsapp if you have 	questions or comments.</p>
+				</div>
+				<div id = "social">
+					<a href="message.html"><img src = "facebook_icon.jpg"></a><hr>
+					<a href="message.html"><img src = "IG_icon.jpg"></a><hr>
+					<a href="message.html"><img src = "whatsapp_icon_small.jpg"></a><br>
+				</div>
+			</div>
+		</div>
+
+		<!--Projects -->
+		<div id = "project_background">
+			<div id = "projects" >
+				<div id = "projects_text" ><h1>My latest fullstack web application project</h1><br>
+					<P>My latest fullstack web application is a loan management application. It helps the user manage loans owed to them.</P>
+				</div>
+				<div id = "old_site">
+					<img src="Capture.jpg" height="100px"><br><br>
+					<a href = "https://lwazi4787.000webhostapp.com" id = "project_button_index"><button id = "project_button" style="text-align: center">Check it out</button></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id = "footer_background">
+		<footer>
+			<p>Copyright &copy; 2018 My World. Web developent services. Contact</p>
+			<p id = "developer"><di style = "color: #aaaaaa;">Web developed by</di> Lwazi: lwazi4787@gmail.com</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src = "jquery/jquery-3.2.1.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#menu_bttn').click(function(){
+			$('nav li').slideToggle(500);
+		});
+		});
+	</script>
+</body>
+</html>

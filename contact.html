@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<style type="text/css">
+		#my_goal_background{
+			//text-align: left;
+		}
+		#my_goal{
+			//text-align: left;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul style="list-style-type: none">
+			<a href="index.html"><li>Home</li></a>
+			<a href="about.html"><li>About</li></a>
+			<a href="contact.html"><li>Contact</li></a>
+			<!--<a href="#"><li>Develelopment services</li></a>-->
+		</ul>
+		<button id = "menu_bttn">Menu</button>
+
+		<div id = "logo_text">
+			<h2>My World</h2>
+			<img src="20131112-Free-Symbols-and-Icons-for-websites.png" height="30px"><p>lwazi4787@gmail.com</p>
+			<img src="20131112-Free-Symbols-and-Icons-for-websites2.png" height="30px"><p>074 290 9377</p>
+		</div>
+
+	</nav>
+
+	<section id = "section">
+	<div id = "background_img">
+		<img src="pexels-photo (1).jpg">
+		<div id = "main_section">
+			<h1 id = "home_heading">Web Developer</h1><br>
+			<a href = "#contact" id = "home_button_index"><button id = "home_button">Contact Me</button></a>
+		</div>
+	</div>
+		<a name="contact"></a><div id = "my_goal_background">
+			<div id = "my_goal">
+				<h1>Contact me</h1>
+				<h3 id = "th">Email</h3>
+				<p>lwazi4787@gmail.com</p><br>
+
+				<h3 id = "th">Located</h3>
+				<p>J1919 Umlazi sihayo road 4031</p><br>
+
+				<h3 id = "th">Cell No.:</h3>
+				<p>0742909377</p><br>
+
+			</div>
+		</div>
+
+		<!--Social media -->
+		<div id = "social_background">
+			<div id = "social_div">
+				<div id = "social_text">
+					<h1>Social media handle</h1><br>
+					<p>Follow me on instagram and facebook for latest updates and info. You can also chat with me on whatsapp if you have 	questions or comments.</p>
+				</div>
+				<div id = "social">
+					<a href="message.html"><img src = "facebook_icon.jpg"></a><hr>
+					<a href="message.html"><img src = "IG_icon.jpg"></a><hr>
+					<a href="message.html"><img src = "whatsapp_icon_small.jpg"></a><br>
+				</div>
+			</div>
+		</div>
+
+		<!--Projects -->
+		<div id = "project_background">
+			<div id = "projects" >
+				<div id = "projects_text" ><h1>My latest fullstack web application project</h1><br>
+					<P>My latest fullstack web application is a loan management application. It helps the user manage loans owed to them.</P>
+				</div>
+				<div id = "old_site">
+					<img src="Capture.jpg" height="100px"><br><br>
+					<a href = "https://lwazi4787.000webhostapp.com" id = "project_button_index"><button id = "project_button" style="text-align: center">Check it out</button></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id = "footer_background">
+		<footer>
+			<p>Copyright &copy; 2018 My World. Web developent services. Contact</p>
+			<p id = "developer"><di style = "color: #aaaaaa;">Web developed by</di> Lwazi: lwazi4787@gmail.com</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src = "jquery/jquery-3.2.1.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#menu_bttn').click(function(){
+			$('nav li').slideToggle(500);
+		});
+		});
+	</script>
+</body>
+</html>
